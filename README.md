@@ -43,19 +43,19 @@ ARG="[ set of numbers ]"; ./push_swap $ARG | ./checker $ARG
 
 ###### <b> Valid instructions: </b><br>
 > sa : swap a - swap the first 2 elements at the top of stack a. Do nothing if there
-is only one or no elements). <br>
+is only one or no elements). <p>
 > sb : swap b - swap the first 2 elements at the top of stack b. Do nothing if there
-is only one or no elements).  <br>
-> ss : sa and sb at the same time.  <br>
+is only one or no elements). <p>
+> ss : sa and sb at the same time.  <p>
 > pa : push a - take the first element at the top of b and put it at the top of a. Do
-nothing if b is empty.  <br>
+nothing if b is empty. <p>
 > pb : push b - take the first element at the top of a and put it at the top of b. Do
-nothing if a is empty.  <br>
+nothing if a is empty.  <p>
 > ra : rotate a - shift up all elements of stack a by 1. The first element becomes
-the last one.  <br>
+the last one.  <p>
 > rb : rotate b - shift up all elements of stack b by 1. The first element becomes
-the last one.  <br>
-> rr : ra and rb at the same time.  <br>
-> rra : reverse rotate a - shift down all elements of stack a by 1. The last element becomes the first one.  <br>
-> rrb : reverse rotate b - shift down all elements of stack b by 1. The last element becomes the first one.  <br>
+the last one. <p>
+> rr : ra and rb at the same time.  <p>
+> rra : reverse rotate a - shift down all elements of stack a by 1. The last element becomes the first one.  <p>
+> rrb : reverse rotate b - shift down all elements of stack b by 1. The last element becomes the first one.  <p>
 > rrr : rra and rrb at the same time.
